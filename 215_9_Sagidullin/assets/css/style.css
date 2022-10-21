@@ -1,0 +1,505 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+body{
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-style: normal;
+  background: radial-gradient(100% 100% at 50% 0%, #686C6F 0%, #373A3C 100%);
+}
+
+/* Header */
+.header__container{
+  width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header{
+  background: #373A3C;
+}
+
+.header__logo{
+  background: url(../img/xbox.svg) no-repeat center center/cover;
+  width: 96px;
+  height: 29px;
+}
+
+.header__info{
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.header__additionally{
+  display: flex;
+  padding-right: 48px;
+}
+
+.header__additionalblock{
+  padding-left: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__arrow{
+  background: url(../img//down-arrow.svg) no-repeat center center/cover;
+  width: 12px;
+  height: 7px;
+}
+
+.header__community{
+  font-size: 16px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.header__consoles{
+  margin-right: 15px;
+  font-size: 16px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.header__games{
+  margin-right: 15px;
+  color: #FFFFFF;
+}
+
+.header__input{
+  padding: 11px;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  margin-right: 29px;
+}
+.header__profile{
+  display: flex;
+  align-items: center;
+}
+
+.header__profile__img{
+  background: url(../img/user.svg) no-repeat center center/cover;
+  width: 20px;
+  height: 20px;
+  margin-right: 9px;
+}
+
+.header__profile__text{
+  font-size: 16px;
+  line-height: 16px;  
+  color: rgba(255, 255, 255, 0.5);
+  margin-right: 9px;
+  margin-left: 9px;
+}
+
+/* First */
+
+.first{
+  background: url(../img/Star-Wars-Battlefront-II-combat.svg)no-repeat center center/cover;
+  height: 644px;
+  font-size: 36px;
+  line-height: 42px;
+  color: #FFFFFF;
+  display: flex;
+}
+
+.first__container{
+  width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.first__content-block{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.firsst__text2{
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.first__button1{
+  background: #8DD83D;
+  border-radius: 4px;
+  padding: 9px 28px;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  border: 0;
+  margin-right: 13px;
+}
+.first__button2{
+  background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+  border-radius: 4px;
+  padding: 9px 28px;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  border: 0;
+}
+
+.first__textblock{
+  margin-bottom: 135px;
+}
+
+/* Second */
+
+.second{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.second__container{
+  margin: 0 auto;
+  width: 1080px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.second__title__img{
+  width: 63px;
+  height: 64px;
+  background: url(../img/xbox\ icon.svg) no-repeat center center/cover;
+}
+
+.second__title{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  font-size: 48px;
+  line-height: 56px;
+  color: #FFFFFF;
+  margin-top: 64px;
+}
+
+.second__textblock{
+  margin-top: 14px;
+}
+
+.second__text2{
+  font-size: 36px;
+  line-height: 42px;
+  
+  color: #FFFFFF;
+}
+
+.second__cards{
+  margin-top: 44px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.second__card__img1{
+  width: 320px;
+  height: 180px;
+  background: url(../img/xbox-one-x.png) no-repeat center center/cover;
+}
+
+.second__card__img2{
+  width: 318px;
+  height: 180px;
+  background: url(../img/mixer-logo.png) no-repeat center center/cover;
+}
+
+.second__card__img3{
+  width: 318px;
+  height: 180px;
+  background: url(../img/games.png) no-repeat center center/cover;
+}
+
+.second__card{
+  background: #FFFFFF;
+  font-size: 24px;
+  line-height: 28px;
+  color: #435766;
+}
+
+
+.second__card__text-title{
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.second__card__texts{
+  margin-left: 20px;
+  margin-top: 13px;
+}
+
+.second__buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 13px;
+  padding: 27px 21px;
+}
+
+.second__button{
+  background: #8DD83D;
+  border-radius: 4px;
+  width: 278px;
+  height: 60px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  border: 0;
+}
+
+.sc2{
+  margin-left: 64px;
+  margin-right: 64px;
+}
+
+/* Third */
+
+.third{
+  margin-top: 164px;
+  height: 480px;
+  background: url(../img/Rectangle.png)no-repeat center center/cover;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.third__container{
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.third__title{
+  padding-top: 114px;
+  font-size: 48px;
+  line-height: 56px;
+  color: #FFFFFF;
+}
+
+.third__texts{
+  margin-top: 10px;
+  font-size: 24px;
+  line-height: 28px;  
+  color: #FFFFFF;
+}
+
+.third__buttons{
+  margin-top: 39px;
+}
+
+.third__button1{
+  padding: 20px 62px;
+  text-align: center;
+  background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.third__button2{
+  padding: 20px 37px;
+  background: #8DD83D;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+/* Fourth */
+
+.fourth__container{
+  width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fourth__xbox__list{
+  padding-top: 58px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #7DD42F;
+}
+
+.fourth__developers__list{
+  padding-top: 58px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #7DD42F;
+}
+
+.fourth__follow-us__list{
+  padding-top: 58px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #7DD42F;
+}
+
+.fourth__list{
+  display: flex;
+  flex-direction: column;
+}
+
+.fourth__title__links{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #7DD42F;
+}
+
+.fourth__links{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  margin-top: 30px;
+}
+
+.fourth__social{
+  display: flex;
+  justify-content: space-between;
+}
+
+.fourth__facebook{
+  height: 18px;
+  width: 9px;
+  background: url(../img/Faacebook.svg)no-repeat center center/cover;
+}
+.fourth__twitter{
+  height: 18px;
+  width: 21px;
+  background: url(../img/Twitter.svg)no-repeat center center/cover;
+}
+.fourth__instagram{
+  height: 18px;
+  width: 19px;
+  background: url(../img/Instagram.svg)no-repeat center center/cover;
+}
+
+.fourth__under{
+  border-top: 2px solid #FFFFFF;
+  padding-top: 20px;
+  margin-top: 70px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-bottom: 38px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* registration */
+
+
+.registration{
+  margin: 0 auto;
+  width: 300px;
+  height: 433px;
+  background: #FDFDFF;
+  box-shadow: 0px 0px 30px rgba(0, 29, 108, 0.1);
+}
+
+.registration__title{
+  margin-top: 40px;
+  padding-top: 40px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #979797
+}
+
+.registration__input__block{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.registration__input{
+  margin-top: 15px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 5px 2px rgba(0, 29, 108, 0.07);
+  border-radius: 5px;
+  padding: 12px 24px;
+}
+
+.registration__button__block{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.registration__link__block{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.registration__log-in{
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.registration__button{
+  background: #8DD83D;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #FDFDFF;
+  padding: 15px 90px;
+}
